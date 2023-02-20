@@ -1,0 +1,18 @@
+[package]
+name = "merchants"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.9.1"
+bevy_ascii_terminal = "0.12.3"
+rand = "0.8.5"
+glam = { version = "0.22" }
+arrayvec = "0.7.2"
+lazy_static = "1.4.0"
+noise = "0.8.2"
+# sark_grids = "0.5.5"
+sark_grids = {path="../sark_grids_rs", version = "0.5.5"}
+sark_pathfinding = {path="../sark_pathfinding_rs", version = "0.3.0"}
