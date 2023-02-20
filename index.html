@@ -1,7 +1,17 @@
-<html>
-<head>
-    <meta charset="utf-8"/>
+<html><head>
+    <meta charset="utf-8">
     <title>Merchants</title>
-    <link data-trunk rel="inline" href="build/styles.css"/>
-</head>
-</html>
+    <style type="text/css">body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #727272;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}</style>
+
+<link rel="preload" href="./dist/merchants-dd73b1fa984d2918_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="./dist/merchants-dd73b1fa984d2918.js"></head>
+<body><script type="module">import init from './dist/merchants-dd73b1fa984d2918.js';init('./dist/merchants-dd73b1fa984d2918_bg.wasm');</script></body></html>
